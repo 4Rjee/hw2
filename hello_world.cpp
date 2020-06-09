@@ -5,7 +5,7 @@ int
 main(int, char**)
 {
     std::string name;
-    // получаем имя пользователя
+    // getting user's name from stdin
     std::getline(std::cin, name);
     std::cout << "Hello world from " << name 
               << std::endl; 
