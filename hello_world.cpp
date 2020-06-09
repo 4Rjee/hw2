@@ -3,7 +3,7 @@
 
 int main(int, char**) {
     std::string name;
-    // getting user's name from stdin
+    // получаем имя пользователя
     std::getline(std::cin, name);
     std::cout << "Hello world from " << name << std::endl; 
     return 0;
